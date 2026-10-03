@@ -1,0 +1,12 @@
+node_modules/
+dist/
+tmp/
+coverage/
+.nx/cache
+.nx/workspace-data
+.env
+.env.*
+!.env.example
+*.log
+.DS_Store
+.claude/settings.local.json

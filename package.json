@@ -1,0 +1,19 @@
+{
+  "name": "khanon-js-builder",
+  "version": "0.0.0",
+  "private": true,
+  "license": "MIT",
+  "scripts": {
+    "graph": "nx graph",
+    "build": "nx run-many -t build",
+    "lint": "nx run-many -t lint",
+    "test": "nx run-many -t test"
+  },
+  "devDependencies": {
+    "@nx/js": "^23.2.1",
+    "@types/node": "^26.6.4",
+    "nx": "^23.2.1",
+    "tslib": "^2.8.1",
+    "typescript": "~5.9"
+  }
+}
